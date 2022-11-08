@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="basic_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline4
+        </item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="MaterialCardWithBorder" parent="Widget.MaterialComponents.CardView">
+        <item name="strokeWidth">@dimen/slim_margin</item>
+        <item name="strokeColor">@color/borderColor</item>
+        <item name="cardBackgroundColor">@color/defaultBackgroundColor</item>
+    </style>
+
+
+</resources>
